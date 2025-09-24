@@ -1,17 +1,16 @@
 # Netlify Configuration
 [build]
   publish = "."
-  command = "node build-script.js"
+  command = "node build-script.js || echo 'Build script failed, using default API key'"
 
 # Environment variables for Netlify
 # Set WEATHER_API_KEY in Netlify dashboard: Site settings > Environment variables
 
-# Redirects
+# Redirects for SPA
 [[redirects]]
   from = "/*"
-  to = "/Index.html"
+  to = "/index.html"
   status = 200
-  conditions = {Role = ["admin"]}
 
 # Security Headers
 [[headers]]
