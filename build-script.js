@@ -15,7 +15,7 @@ if (!apiKey) {
 }
 
 // Read the JavaScript file
-const scriptPath = path.join(__dirname, 'Script.js');
+const scriptPath = path.join(__dirname, 'script.js');
 let scriptContent = fs.readFileSync(scriptPath, 'utf8');
 
 // Replace the placeholder API key with the environment variable
