@@ -19,8 +19,9 @@ A clean and responsive weather report card built using **HTML**, **CSS**, and **
 
 ## 📷 Preview
 
+<img width="1680" height="1050" alt="Screenshot 2025-09-27 at 3 19 49 PM" src="https://github.com/user-attachments/assets/f0965e49-e692-4329-a850-f19d1b8861ea" />
 
-<img width="486" height="506" alt="Screenshot 2025-08-03 at 10 40 20 AM" src="https://github.com/user-attachments/assets/658979d1-ed8b-480b-99fa-c2776d0e7968" />
+
 
 
 ## 🚀 Getting Started
